@@ -16,4 +16,4 @@ def vopros():
         else:
             print(random.choice(answers))
 vopros()
-print('test7',random.choice(answers))
+print('test8',random.choice(answers))
