@@ -11,8 +11,9 @@ def vopros():
     while True:
         print('напишите вопрос на который можно ответить да или нет \n  если хотите закончить введите N')
         name_vopros = input()
-        if name_vopros == 'N':
+        if name_vopros == 'N' or name_vopros=="n":
             break
         else:
             print(random.choice(answers))
 vopros()
+print('test',random.choice(1))
